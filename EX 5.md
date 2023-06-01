@@ -1,12 +1,12 @@
 # EX-5 IMPLEMENTATION OF REVERSE ADDRESS RESOLUTION PROTOCOL ( RARP )
 
-# DATE : 03/04/2023
+## DATE : 05/04/2023
 
-# AIM :
+## AIM :
 To write a python program for simulating RARP protocols using UDP
 
-# ALGORITHM :
-  # CLIENT :
+## ALGORITHM :
+  ## CLIENT :
   ```
   1. Start the program
   2. Using datagram sockets UDP function is established.
@@ -15,7 +15,7 @@ To write a python program for simulating RARP protocols using UDP
   5. Server returns the IP address to client.
   ```
   
-  # SERVER :
+  ## SERVER :
   ```
   1. Start the program.
   2. Server maintains the table in which IP and corresponding MAC addresses are stored.
@@ -23,9 +23,9 @@ To write a python program for simulating RARP protocols using UDP
   4. Map the IP address with its MAC address and return the IP address to client.
   ```
 
-# PROGRAM :
-# CLIENT :
-```
+## PROGRAM :
+## CLIENT :
+```PYTHON 3
 import socket
 s=socket.socket()
 s.bind(('localhost',9000))
@@ -40,8 +40,8 @@ while True:
  c.send("Not Found".encode()) 
 ```
 
-# SERVER :
-```
+## SERVER :
+```PYTHON 3
 import socket
 s=socket.socket()
 s.connect(('localhost',9000))
@@ -50,15 +50,15 @@ while True:
  s.send(ip.encode())
  print("Logical Address",s.recv(1024).decode())
 ```
-# OUTPUT :
-# CLIENT OUTPUT :
+## OUTPUT :
+## CLIENT OUTPUT :
 ![5a](https://github.com/JoshuaSamuel7/19CS405-EX-5/assets/118343296/264c2384-d766-45e0-8f60-8f9b4c84b544)
 
 
-# SERVER OUTPUT :
+## SERVER OUTPUT :
 
 ![5b](https://github.com/JoshuaSamuel7/19CS405-EX-5/assets/118343296/6c8f1517-b9c1-4412-a99b-df28f30e5cd2)
 
 
-# RESULT :
+## RESULT :
 Thus, python program for simulating RARP protocols using UDP was successfully executed.
