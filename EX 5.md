@@ -52,10 +52,12 @@ while True:
 ```
 # OUTPUT :
 # CLIENT OUTPUT :
-![Screenshot (60)](https://github.com/ArpanBardhan/EX-5/assets/119405037/2f484112-52b6-44d5-b966-6cafd083407c)
+![5a](https://github.com/JoshuaSamuel7/19CS405-EX-5/assets/118343296/264c2384-d766-45e0-8f60-8f9b4c84b544)
+
 
 # SERVER OUTPUT :
-![Screenshot (61)](https://github.com/ArpanBardhan/EX-5/assets/119405037/b5ec9e4b-0c7a-4872-b6b0-71d187ead0f5)
+
+![5b](https://github.com/JoshuaSamuel7/19CS405-EX-5/assets/118343296/6c8f1517-b9c1-4412-a99b-df28f30e5cd2)
 
 
 # RESULT :
